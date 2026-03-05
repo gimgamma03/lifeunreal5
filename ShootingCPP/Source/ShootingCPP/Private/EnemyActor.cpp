@@ -11,6 +11,8 @@
 
 AEnemyActor::AEnemyActor()
 {
+	//boo
+	//boo2
 	PrimaryActorTick.bCanEverTick = true;
 
 	boxComp = CreateDefaultSubobject<UBoxComponent>(TEXT("Box Collider"));
